@@ -22,7 +22,7 @@ model.setInputSwapRB(True)
 
 def detect_and_render_objects(image):
 
-    ClassIndex, confidence, bbox = model.detect(image, confThreshold=0.3)
+    ClassIndex, confidence, bbox = model.detect(image, confThreshold=0.4)
     
     filtered_detections = []
     for index, conf, boxes in zip(ClassIndex.flatten(), confidence.flatten(), bbox):
