@@ -43,3 +43,11 @@ python app.py
 
 2. The Flask server will start running at `http://localhost:5009`.
 
+
+### Video
+
+https://github.com/pavan29903/object-detection/assets/76763052/254feb3b-9ce4-4c50-8b28-c8139c592b1e
+
+
+
+
